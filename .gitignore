@@ -1,0 +1,54 @@
+# =========================
+# Python/Django
+# =========================
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+.idea/
+.vscode/
+
+# Django files
+db.sqlite3
+media/
+staticfiles/
+local_settings.py
+
+# =========================
+# React (frontend)
+# =========================
+node_modules/
+build/
+dist/
+npm-debug.log
+yarn-error.log
+*.log
+
+# =========================
+# Environment files
+# =========================
+.env
+.env.local
+.env.* 
+vir_chat/
+
+
+# =========================
+# OS Generated
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Misc
+# =========================
+*.swp
+*.swo
+*.swn
+*.bak
+*.tmp
+*.orig
